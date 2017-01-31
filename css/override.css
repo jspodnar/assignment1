@@ -1,0 +1,17 @@
+body {
+  padding:10px;
+}
+
+header, main, footer {
+  boder: 1px solid black;
+}
+
+nav ul li {
+  display:inline-block;
+  width: 12.4%;
+}
+
+h2 {
+  border: 1px solid black;
+  padding 20px;
+}
