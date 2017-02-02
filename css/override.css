@@ -1,17 +1,40 @@
-body {
-  padding:10px;
-}
+
 
 header, main, footer {
   boder: 1px solid black;
 }
 
+header {
+  padding: none;
+  min-height: 12px;
+  background: #d1ece8 url(../images/layout/topBorder.png) no-repeat center bottom;
+  font-size: 0.75em;
+  padding: 3px;
+}
+
+body {
+  background: #008e8a url(../images/layout/bg2.png) repeat-y center top;
+}
+
+
+section {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+}
+
 nav ul li {
   display:inline-block;
+  text-align: center;
   width: 12.4%;
 }
 
-h2 {
+h1, h2 {
+  text-align: center;
   border: 1px solid black;
   padding 20px;
 }
